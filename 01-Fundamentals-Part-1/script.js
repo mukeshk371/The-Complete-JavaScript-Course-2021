@@ -73,26 +73,43 @@ let myCurrentJob = "Teacher";
 /*-------------------------------------------------------------------------------------------*/
 /*                              Strings and Template Literals                                */
 /*-------------------------------------------------------------------------------------------*/
-const firstName = 'Mukesh';
-const job = 'Front End Developer';
-const birthYear = 1995;
-const year = 2021;
+// const firstName = 'Mukesh';
+// const job = 'Front End Developer';
+// const birthYear = 1995;
+// const year = 2021;
 
-const mukesh = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job;
-console.log(mukesh);
+// const mukesh = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job;
+// console.log(mukesh);
 
-const mukeshNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}`;
-console.log(mukeshNew);
+// const mukeshNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}`;
+// console.log(mukeshNew);
 
-console.log(`Just a regular string.......`);
+// console.log(`Just a regular string.......`);
 
-// Multiple line string (using \n)
-console.log('Mukesh Kumar \n\
-Front End Developer');
+// // Multiple line string (using \n)
+// console.log('Mukesh Kumar \n\
+// Front End Developer');
 
-console.log(`Mukesh Kumar
-Front End Developer`);
+// console.log(`Mukesh Kumar
+// Front End Developer`);
 
 /*-------------------------------------------------------------------------------------------*/
 /*                          Taking Decisions: if / else Statements                           */
 /*-------------------------------------------------------------------------------------------*/
+const age = 15;
+const isOldEnough = age >= 18;
+const yearsLeft = 18 - age;
+if (isOldEnough) {
+    console.log('Sarah can start driving license.');
+} else {
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years.`);
+}
+
+const birthYear = 1995;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century + ' Century');
