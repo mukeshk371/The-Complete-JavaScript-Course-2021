@@ -31,10 +31,10 @@ const johnMass2 = 85;
 
 const markBmi1 = markMass1 / markHeight1 ** 2;
 const markBmi2 = markMass2 / markHeight2 ** 2;
-console.log(markBmi1, markBmi2);
+// console.log(markBmi1, markBmi2);
 
 const johnBmi1 = johnMass1 / (johnHeight1 ** 2);
 const johnBmi2 = johnMass2 / (johnHeight2 ** 2);
-console.log(johnBmi1, johnBmi2);
+// console.log(johnBmi1, johnBmi2);
 
-console.log(markBmi1 > johnBmi1);
+// console.log(markBmi1 > johnBmi1);

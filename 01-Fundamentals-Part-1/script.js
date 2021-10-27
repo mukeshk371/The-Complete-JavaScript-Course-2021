@@ -44,28 +44,55 @@ let myCurrentJob = "Teacher";
 /*                                        Operators                                          */
 /*-------------------------------------------------------------------------------------------*/
 // Math Operators
-const now = 2037;
-const ageJonas = now - 1991;
-const ageSarah = now - 2018;
-console.log(ageJonas, ageSarah);
-console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
+// console.log(ageJonas, ageSarah);
+// console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 
-const firstName = 'Jonas';
-const lastName = 'Martin';
-console.log(firstName + ' ' + lastName);
+// const firstName = 'Jonas';
+// const lastName = 'Martin';
+// console.log(firstName + ' ' + lastName);
 
-// Assignment Operators
-let x = 10 + 5;
-x += 10;
-x *= 4;
-x++;
-x--;
-console.log(x);
+// // Assignment Operators
+// let x = 10 + 5;
+// x += 10;
+// x *= 4;
+// x++;
+// x--;
+// console.log(x);
 
-// Comparision Operators
-console.log(ageJonas > ageSarah);
-console.log(ageJonas < ageSarah);
-console.log(ageSarah >= 18);
+// // Comparision Operators
+// console.log(ageJonas > ageSarah);
+// console.log(ageJonas < ageSarah);
+// console.log(ageSarah >= 18);
 
-const isFullAge = ageSarah >= 18;
+// const isFullAge = ageSarah >= 18;
 
+
+/*-------------------------------------------------------------------------------------------*/
+/*                              Strings and Template Literals                                */
+/*-------------------------------------------------------------------------------------------*/
+const firstName = 'Mukesh';
+const job = 'Front End Developer';
+const birthYear = 1995;
+const year = 2021;
+
+const mukesh = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job;
+console.log(mukesh);
+
+const mukeshNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}`;
+console.log(mukeshNew);
+
+console.log(`Just a regular string.......`);
+
+// Multiple line string (using \n)
+console.log('Mukesh Kumar \n\
+Front End Developer');
+
+console.log(`Mukesh Kumar
+Front End Developer`);
+
+/*-------------------------------------------------------------------------------------------*/
+/*                          Taking Decisions: if / else Statements                           */
+/*-------------------------------------------------------------------------------------------*/
